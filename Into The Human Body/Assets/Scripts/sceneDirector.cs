@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class sceneDirector : MonoBehaviour {
@@ -194,7 +195,9 @@ public class sceneDirector : MonoBehaviour {
 
 	void SceneEnd()
 	{
-		Application.LoadLevel("EndScene");
+		SceneManager.LoadScene("EndScene");
+        
+        
 	}
 
 	public void EndOfPath(){

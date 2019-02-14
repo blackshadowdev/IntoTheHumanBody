@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SceneManager : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
     public WhiteBloodCell[] wbc;
     public AnimatorControlScript controller;
